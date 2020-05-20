@@ -1,3 +1,10 @@
+# frozen_string_literal: true
+
 module Urlenc
-  VERSION = "0.1.0"
+  VERSION = '1.0.2'
+  DESCRIPTION = <<~DESC
+    Command line url-encode/decode helper.
+    This is the simplest way to URL encode / decode STDIN.
+  DESC
+  REPOSITORY_URL = 'https://github.com/shinyaohtani/urlenc'
 end
