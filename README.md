@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/urlenc.svg)](https://badge.fury.io/rb/urlenc)
+
 # Urlenc
 
 The simplest way to URL encode / decode from STDIN. URL encoding is a generic name, more accurately called Percent-encoding. The URL encoding is by far the most well-known name, so we intentionally named this gem Urlenc.
