@@ -1,8 +1,6 @@
 # Urlenc
 
-The simplest way to URL encode / decode from STDIN.
-URL encoding is a generic name, more accurately called Percent-encoding.
-See more: [wikipedia](https://en.wikipedia.org/wiki/Percent-encoding)
+The simplest way to URL encode / decode from STDIN. URL encoding is a generic name, more accurately called Percent-encoding. See more: [wikipedia](https://en.wikipedia.org/wiki/Percent-encoding)
 
 ## Installation
 
