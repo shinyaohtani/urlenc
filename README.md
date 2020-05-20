@@ -1,28 +1,42 @@
 # Urlenc
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/urlenc`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+The simplest way to URL encode / decode from STDIN.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'urlenc'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
+Just install from rubygems:
 
     $ gem install urlenc
 
 ## Usage
 
-TODO: Write usage instructions here
+```bash
+$ # decode
+$ echo "http://sample%20Text%21/" | urlenc -d
+http://sample Text!/
+
+$ # encode with split by /
+$ echo "http://sample Text!/" | urlenc -es
+http://sample%20Text%21/
+
+$ # or just encode
+$ echo "http://sample Text!/" | urlenc -e
+http%3A%2F%2Fsample%20Text%21%2F
+```
+
+```
+Usage: urlenc {decode/encode} [options]
+ Required:
+    -d, --decode    Decode/unescape STDIN. %22Sample%20Text%21%22 to "Sample Text!"
+    -e, --encode    Encode/escape   STDIN. "Sample Text!" to %22Sample%20Text%21%22
+
+ Optional:
+    -s, --split     Split before Encode/escape. http://sample Text!/ to http://sample%20Text%21/
+
+ Common options:
+    -h, --help      Show this message
+    -V, --version   Show version
+```
 
 ## Development
 
