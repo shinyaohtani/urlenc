@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'urlenc/version'
+
 # Usage: urlenc [options]
 #     -d, --decode  : Decode/unescape STDIN
 #     -e, --encode  : Encode/escape   STDIN
