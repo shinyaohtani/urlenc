@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Shinya Ohtani (shinyaohtani@github)']
   spec.email         = ['shinya_ohtani@yahoo.co.jp']
 
-  spec.summary       = 'A simple command line helper for URL encode/decode'
+  spec.summary       = 'This is the simplest way to URL encode / decode STDIN.'
   spec.description   = Urlenc::DESCRIPTION
   spec.homepage      = Urlenc::REPOSITORY_URL + '/tree/master/README.md'
   spec.license       = 'MIT'
