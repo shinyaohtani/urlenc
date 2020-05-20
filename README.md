@@ -1,6 +1,6 @@
 # Urlenc
 
-The simplest way to URL encode / decode from STDIN. URL encoding is a generic name, more accurately called Percent-encoding. The URL encoding is by far the most well-known name, so I intentionally named this gem Urlenc.
+The simplest way to URL encode / decode from STDIN. URL encoding is a generic name, more accurately called Percent-encoding. The URL encoding is by far the most well-known name, so we intentionally named this gem Urlenc.
 
 See about Percent-encoding: [wikipedia](https://en.wikipedia.org/wiki/Percent-encoding)
 
