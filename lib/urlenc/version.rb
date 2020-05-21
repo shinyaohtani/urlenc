@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Urlenc
-  VERSION = '1.0.0'
+  VERSION = '1.0.1'
   DESCRIPTION = <<~DESC
     Command line url-encode/decode helper.
     The simplest way to URL encode / decode from STDIN.
